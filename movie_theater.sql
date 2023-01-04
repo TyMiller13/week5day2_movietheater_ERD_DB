@@ -48,3 +48,18 @@ create table payments(
 
 select * 
 from payments p;
+
+--insert customers to customer table
+
+--insert movies to movie table
+
+-- insert payments to payment table
+
+--insert tickets to ticket table
+
+-- add column to movies table
+alter table movies 
+add column genre VARCHAR(20);
+-- add column to ticket table
+alter table tickets 
+add column quantity INTEGER not null;
